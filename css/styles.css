@@ -36,20 +36,20 @@ svg {
     font-weight: 900;
     font-size: 2rem;
   }
-  picture{
+  picture {
     height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1
+    z-index: -1;
   }
   body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     height: 100vh;
-    width: 90%; 
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -107,22 +107,95 @@ svg {
     font-weight: 900;
     font-size: 2rem;
   }
-  picture{
+  picture {
     height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1
+    z-index: -1;
   }
   body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     height: 100vh;
-    width: 90%; 
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+  main h2 {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 60rem;
+  }
+  main p {
+    margin-top: 2rem;
+  }
+
+  .trial-banner {
+    color: white;
+    background-color: var(--yellow);
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  form {
+    background-color: var(--mid-grey);
+  }
+  form > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+
+  form > h3,
+  form > label {
+    padding: 1rem 0 0 1rem;
+  }
+
+  form > button {
+    background-color: var(--grey-blue);
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 0.25rem;
+    color: var(--white);
+    text-transform: capitalize;
+    width: 97%;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+}
+
+/* LARGE */
+@media screen and (min-width: 1000px) {
+  .logo {
+    position: relative;
+    left: 30rem;
+    top: 1.5rem;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 60%;
+  }
+
+  header a {
+    color: var(--grey-blue);
+    text-shadow: 2px 2px var(--dark-grey);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  picture {
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
   main h2 {
     font-size: 4rem;
