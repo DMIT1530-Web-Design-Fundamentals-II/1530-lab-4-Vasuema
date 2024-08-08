@@ -36,20 +36,27 @@ svg {
     font-weight: 900;
     font-size: 2rem;
   }
+  picture{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+  }
   body {
-    background-image: url("/img/work-at-home-with-pets-small.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     height: 100vh;
-    width: 90%;
+    width: 90%; 
     margin-left: auto;
     margin-right: auto;
   }
   main h2 {
     font-size: 4rem;
     line-height: 4rem;
-    margin-top: 37rem;
+    margin-top: 43rem;
   }
   main p {
     margin-top: 2rem;
@@ -100,20 +107,27 @@ svg {
     font-weight: 900;
     font-size: 2rem;
   }
+  picture{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+  }
   body {
-    background-image: url("/img/work-at-home-with-pets-small.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     height: 100vh;
-    width: 90%;
+    width: 90%; 
     margin-left: auto;
     margin-right: auto;
   }
   main h2 {
     font-size: 4rem;
     line-height: 4rem;
-    margin-top: 50rem;
+    margin-top: 60rem;
   }
   main p {
     margin-top: 2rem;
